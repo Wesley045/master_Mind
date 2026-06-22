@@ -52,7 +52,7 @@ def show_Secret(mystery):
 
 def play_Mastermind():
     print("Welcome to Mastermind!")
-    print("Guess the 4-digit code. Each digit is from 1 to 6. You have 10 attempts.")
+    print("Guess the 4-digit code. Each digit is from 1 to 6. You have 10 attempts. ")
     secret_Code = generate_Code()
     attempts = 10
 
