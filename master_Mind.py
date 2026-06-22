@@ -15,6 +15,18 @@ username="admin"
 password="$2b$12$Yvw7UIp4it0vNuxS9cWmruN.KWZ4wIC9nt6R2fjWcbhk1WC.vgsUe"
 if bcrypt.checkpw(inputpassword.encode('utf-8'), password.encode('utf-8')) and inputusername == username:
     ingelogd = True
+    
+kleurcode = {
+    1: "r",
+    2: "b",
+    3: "g",
+    4: "y",
+    5: "p",
+    6: "o"    
+}
+    
+    
+    
 
 def generate_Code(length=4, digits=6):
     return [str(random.randint(1, digits)) for _ in range(length)]
